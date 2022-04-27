@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Overpass", sans-serif;
+}
+
+body {
+    background: hsl(216, 12%, 8%);
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.rateCard {
+    width: 30rem;
+    height: 30rem;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    background: hsl(213, 19%, 18%);
+    color: hsl(0, 0%, 100%);
+    border-radius: 1.5rem;
+    padding: 3rem;
+}
+
+.star {
+    width: 3rem;
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(121, 128, 138, 0.3);
+    border-radius: 50%;
+}
+.resultCard {
+    background: hsl(213, 19%, 18%);
+    color: hsl(0, 0%, 100%);
+}
+
+p {
+    color: hsl(217, 12%, 63%);
+}
+.rating {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    padding: 0 1rem 0;
+}
+
+.rate {
+    width: 4rem;
+    height: 4rem;
+    background: hsl(216, 12%, 54%);
+    opacity: 0.5;
+    font-size: 1.3rem;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 4rem;
+    transition: all 200ms ease;
+}
+.rate:hover {
+    background: hsl(217, 12%, 63%);
+    opacity: 1;
+    cursor: pointer;
+}
+.btn {
+    width: 100%;
+    color: white;
+    background: hsl(25, 97%, 53%);
+    border: none;
+    border-radius: 70px;
+    font-size: 1.2rem;
+    text-align: center;
+    text-decoration: none;
+    padding: 1rem;
+    transition: all 200ms ease;
+}
+
+.btn:hover {
+    color: hsl(25, 97%, 53%);
+    background: white;
+    cursor: pointer;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
