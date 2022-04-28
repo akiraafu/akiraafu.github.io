@@ -8,7 +8,7 @@ let result;
 ratings.forEach((rate) =>
     rate.addEventListener("click", (e) => {
         rate = e.target.id;
-        resultDisplay.innerHTML = rate;
+        resultDisplay.innerHTML = " " + rate;
     })
 );
 
