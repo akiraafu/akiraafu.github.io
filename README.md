@@ -33,8 +33,8 @@ Users should be able to:
 
 ### Links
 
--   Solution URL: [Add solution URL here](https://github.com/akiraafu/rating-component)
--   Live Site URL: [Add live site URL here](https://htmlpreview.github.io/?https://github.com/akiraafu/rating-component/blob/e4f0bbe5b7fda62f598cba1f9cde320ef180b3dd/index.html)
+-   Solution URL: [https://github.com/akiraafu/rating-component]
+-   Live Site URL: [(https://htmlpreview.github.io/?https://github.com/akiraafu/rating-component/blob/e4f0bbe5b7fda62f598cba1f9cde320ef180b3dd/index.html]
 
 ## My process
 
