@@ -33,8 +33,8 @@ Users should be able to:
 
 ### Links
 
--   Solution URL: [Add solution URL here](https://your-solution-url.com)
--   Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+-   Solution URL: [Add solution URL here](https://github.com/akiraafu/rating-component)
+-   Live Site URL: [Add live site URL here](https://htmlpreview.github.io/?https://github.com/akiraafu/rating-component/blob/e4f0bbe5b7fda62f598cba1f9cde320ef180b3dd/index.html)
 
 ## My process
 
@@ -107,4 +107,4 @@ meida queries
 ## Author
 
 -   Website - [Akira](https://github.com/akiraafu?tab=repositories)
--   Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/akiraafu)
+-   Frontend Mentor - [@akiraafu](https://www.frontendmentor.io/profile/akiraafu)
