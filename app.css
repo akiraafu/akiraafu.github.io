@@ -14,6 +14,7 @@ body {
     justify-content: center;
     align-items: center;
 }
+
 .rateCard {
     width: 30rem;
     height: 30rem;
@@ -34,10 +35,6 @@ body {
     align-items: center;
     background: rgba(121, 128, 138, 0.3);
     border-radius: 50%;
-}
-.resultCard {
-    background: hsl(213, 19%, 18%);
-    color: hsl(0, 0%, 100%);
 }
 
 p {
@@ -84,11 +81,71 @@ p {
     cursor: pointer;
 }
 
+.resultCard {
+    width: 30rem;
+    height: 30rem;
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    align-items: center;
+    background: hsl(213, 19%, 18%);
+    color: hsl(0, 0%, 100%);
+    border-radius: 1.5rem;
+    padding: 3rem;
+}
+
+.resultText {
+    width: auto;
+    height: 4rem;
+    background: rgba(121, 128, 138, 0.3);
+    font-size: 1.3rem;
+    font-weight: lighter;
+    border-radius: 2rem;
+    text-align: center;
+    line-height: 4rem;
+    padding: 0 2rem 0;
+}
+
+h3 {
+    color: hsl(25, 97%, 53%);
+}
+.thankyouText {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.thankyouP {
+    font-size: 1.32rem;
+    text-align: center;
+}
 .attribution {
+    color: white;
     font-size: 11px;
     text-align: center;
     margin-bottom: 1rem;
 }
 .attribution a {
     color: hsl(228, 45%, 44%);
+}
+
+/* ===============mobile=========== */
+@media screen and (max-width: 375px) {
+    .rateCard {
+        margin: 20px;
+        height: 26rem;
+    }
+
+    .resultCard {
+        margin: 20px;
+        height: 26rem;
+    }
+    .resultText {
+        font-size: 0.8rem;
+    }
 }
